@@ -26,30 +26,30 @@
         android:onClick="onClick"/>
 
     <Button
-        android:id="@+id/btn_popupmenudemo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_switchdemo"
-        android:layout_alignParentStart="true"
-        android:text="PopupMenu Demo"
-        android:textAllCaps="false"
-        android:onClick="onClick"/>
-
-    <Button
         android:id="@+id/btn_spacedemo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_popupmenudemo"
+        android:layout_below="@id/btn_switchdemo"
         android:layout_alignParentStart="true"
         android:textAllCaps="false"
         android:text="Space Demo"
         android:onClick="onClick" />
 
     <Button
-        android:id="@+id/btn_gridlayoutdemo"
+        android:id="@+id/btn_popupmenudemo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_spacedemo"
+        android:layout_alignParentStart="true"
+        android:text="PopupMenu Demo"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_gridlayoutdemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_popupmenudemo"
         android:layout_alignParentStart="true"
         android:textAllCaps="false"
         android:text="GridLayout Demo"

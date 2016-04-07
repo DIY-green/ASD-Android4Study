@@ -24,6 +24,7 @@
         android:id="@+id/switch_test2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_below="@id/switch_test1"
         android:textOn="@string/switch_on_english"
         android:textOff="@string/switch_off_english"/>
@@ -31,6 +32,9 @@
         android:id="@+id/switch_custom"
         android:layout_width="104dp"
         android:layout_height="62dp"
+        android:switchMinWidth="100dp"
+        android:minHeight="40dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_below="@id/switch_test2"
         android:textOn="@string/switch_on_chinese"
         android:textOff="@string/switch_off_chinese"

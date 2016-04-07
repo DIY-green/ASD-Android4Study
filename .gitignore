@@ -1,3 +1,7 @@
+/.idea
+/gradle.properties
+/gradlew.bat
+/gradlew
 *.iml
 .gradle
 /local.properties
